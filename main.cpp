@@ -20,10 +20,10 @@ int main() {
             if (gracz1 == 'C') {wynikC++; gryC++;}
             if (gracz1 == 'D') {wynikD++; gryD++;}
             //przegrane gdy wygrywa 1
-            if (gracz2 == 'A') gryA++;
-            if (gracz2 == 'B') gryB++;
-            if (gracz2 == 'C') gryC++;
-            if (gracz2 == 'D') gryD++;
+            if (gracz2 == 'A'){gryA++; przegraneA++;}
+            if (gracz2 == 'B'){gryB++; przegraneB++;}
+            if (gracz2 == 'C'){gryC++; przegraneC++;}
+            if (gracz2 == 'D'){gryD++; przegraneD++;}
         }
         if (wybor1 == 'P' && wybor2 == 'J') {
             //wygrane gdy wygrywa 2
@@ -32,10 +32,10 @@ int main() {
             if (gracz2 == 'C') {wynikC++; gryC++;}
             if (gracz2 == 'D') {wynikD++; gryD++;}
             //przegrane gdy wygrywa 2
-            if (gracz1 == 'A') gryA++;
-            if (gracz1 == 'B') gryB++;
-            if (gracz1 == 'C') gryC++;
-            if (gracz1 == 'D') gryD++;
+            if (gracz1 == 'A') {gryA++; przegraneA++;}
+            if (gracz1 == 'B') {gryB++; przegraneB++;}
+            if (gracz1 == 'C') {gryC++; przegraneC++;}
+            if (gracz1 == 'D') {gryD++; przegraneD++;}
 
         }
         if (wybor1 == 'J' && wybor2 == 'S') {
@@ -45,10 +45,10 @@ int main() {
             if (gracz1 == 'C') {wynikC++; gryC++;}
             if (gracz1 == 'D') {wynikD++; gryD++;}
 
-            if (gracz2 == 'A') gryA++;
-            if (gracz2 == 'B') gryB++;
-            if (gracz2 == 'C') gryC++;
-            if (gracz2 == 'D') gryD++;
+            if (gracz2 == 'A'){gryA++; przegraneA++;}
+            if (gracz2 == 'B'){gryB++; przegraneB++;}
+            if (gracz2 == 'C'){gryC++; przegraneC++;}
+            if (gracz2 == 'D'){gryD++; przegraneD++;}
 
         }
         if (wybor1 == 'S' && wybor2 == 'J') {
@@ -58,10 +58,10 @@ int main() {
             if (gracz2 == 'C') {wynikC++; gryC++;}
             if (gracz2 == 'D') {wynikD++; gryD++;}
 
-            if (gracz1 == 'A') gryA++;
-            if (gracz1 == 'B') gryB++;
-            if (gracz1 == 'C') gryC++;
-            if (gracz1 == 'D') gryD++;
+            if (gracz1 == 'A') {gryA++; przegraneA++;}
+            if (gracz1 == 'B') {gryB++; przegraneB++;}
+            if (gracz1 == 'C') {gryC++; przegraneC++;}
+            if (gracz1 == 'D') {gryD++; przegraneD++;}
         }
         //J
 
@@ -74,10 +74,10 @@ int main() {
             if (gracz1 == 'C') {wynikC++; gryC++;}
             if (gracz1 == 'D') {wynikD++; gryD++;}
 
-            if (gracz2 == 'A') gryA++;
-            if (gracz2 == 'B') gryB++;
-            if (gracz2 == 'C') gryC++;
-            if (gracz2 == 'D') gryD++;
+            if (gracz2 == 'A'){gryA++; przegraneA++;}
+            if (gracz2 == 'B'){gryB++; przegraneB++;}
+            if (gracz2 == 'C'){gryC++; przegraneC++;}
+            if (gracz2 == 'D'){gryD++; przegraneD++;}
         }
         if (wybor1 == 'J' && wybor2 == 'K') {
 
@@ -86,21 +86,20 @@ int main() {
             if (gracz2 == 'C') {wynikC++; gryC++;}
             if (gracz2 == 'D') {wynikD++; gryD++;}
 
-            if (gracz1 == 'A') gryA++;
-            if (gracz1 == 'B') gryB++;
-            if (gracz1 == 'C') gryC++;
-            if (gracz1 == 'D') gryD++;
-        }
+            if (gracz1 == 'A') {gryA++; przegraneA++;}
+            if (gracz1 == 'B') {gryB++; przegraneB++;}
+            if (gracz1 == 'C') {gryC++; przegraneC++;}
+            if (gracz1 == 'D') {gryD++; przegraneD++;}
         if (wybor1 == 'K' && wybor2 == 'N'){
             if (gracz1 == 'A') {wynikA++; gryA++;}
             if (gracz1 == 'B') {wynikB++; gryB++;}
             if (gracz1 == 'C') {wynikC++; gryC++;}
             if (gracz1 == 'D') {wynikD++; gryD++;}
 
-            if (gracz2 == 'A') gryA++;
-            if (gracz2 == 'B') gryB++;
-            if (gracz2 == 'C') gryC++;
-            if (gracz2 == 'D') gryD++;
+            if (gracz2 == 'A'){gryA++; przegraneA++;}
+            if (gracz2 == 'B'){gryB++; przegraneB++;}
+            if (gracz2 == 'C'){gryC++; przegraneC++;}
+            if (gracz2 == 'D'){gryD++; przegraneD++;}
         }
         if (wybor1 == 'N' && wybor2 == 'K') {
             if (gracz2 == 'A') {wynikA++; gryA++;}
@@ -108,10 +107,10 @@ int main() {
             if (gracz2 == 'C') {wynikC++; gryC++;}
             if (gracz2 == 'D') {wynikD++; gryD++;}
 
-            if (gracz1 == 'A') gryA++;
-            if (gracz1 == 'B') gryB++;
-            if (gracz1 == 'C') gryC++;
-            if (gracz1 == 'D') gryD++;
+            if (gracz1 == 'A') {gryA++; przegraneA++;}
+            if (gracz1 == 'B') {gryB++; przegraneB++;}
+            if (gracz1 == 'C') {gryC++; przegraneC++;}
+            if (gracz1 == 'D') {gryD++; przegraneD++;}
         }
         //K
 
@@ -124,10 +123,10 @@ int main() {
             if (gracz1 == 'C') {wynikC++; gryC++;}
             if (gracz1 == 'D') {wynikD++; gryD++;}
 
-            if (gracz2 == 'A') gryA++;
-            if (gracz2 == 'B') gryB++;
-            if (gracz2 == 'C') gryC++;
-            if (gracz2 == 'D') gryD++;
+            if (gracz2 == 'A'){gryA++; przegraneA++;}
+            if (gracz2 == 'B'){gryB++; przegraneB++;}
+            if (gracz2 == 'C'){gryC++; przegraneC++;}
+            if (gracz2 == 'D'){gryD++; przegraneD++;}
         }
         if (wybor1 == 'J' && wybor2 == 'N') {
             if (gracz2 == 'A') {wynikA++; gryA++;}
@@ -135,10 +134,10 @@ int main() {
             if (gracz2 == 'C') {wynikC++; gryC++;}
             if (gracz2 == 'D') {wynikD++; gryD++;}
 
-            if (gracz1 == 'A') gryA++;
-            if (gracz1 == 'B') gryB++;
-            if (gracz1 == 'C') gryC++;
-            if (gracz1 == 'D') gryD++;
+            if (gracz1 == 'A') {gryA++; przegraneA++;}
+            if (gracz1 == 'B') {gryB++; przegraneB++;}
+            if (gracz1 == 'C') {gryC++; przegraneC++;}
+            if (gracz1 == 'D') {gryD++; przegraneD++;}
         }
         if (wybor1 == 'N' && wybor2 == 'P'){
             if (gracz1 == 'A') {wynikA++; gryA++;}
@@ -146,10 +145,10 @@ int main() {
             if (gracz1 == 'C') {wynikC++; gryC++;}
             if (gracz1 == 'D') {wynikD++; gryD++;}
 
-            if (gracz2 == 'A') gryA++;
-            if (gracz2 == 'B') gryB++;
-            if (gracz2 == 'C') gryC++;
-            if (gracz2 == 'D') gryD++;
+            if (gracz2 == 'A'){gryA++; przegraneA++;}
+            if (gracz2 == 'B'){gryB++; przegraneB++;}
+            if (gracz2 == 'C'){gryC++; przegraneC++;}
+            if (gracz2 == 'D'){gryD++; przegraneD++;}
         }
         if (wybor1 == 'P' && wybor2 == 'N'){
             if (gracz2 == 'A') {wynikA++; gryA++;}
@@ -157,10 +156,10 @@ int main() {
             if (gracz2 == 'C') {wynikC++; gryC++;}
             if (gracz2 == 'D') {wynikD++; gryD++;}
 
-            if (gracz1 == 'A') gryA++;
-            if (gracz1 == 'B') gryB++;
-            if (gracz1 == 'C') gryC++;
-            if (gracz1 == 'D') gryD++;
+            if (gracz1 == 'A') {gryA++; przegraneA++;}
+            if (gracz1 == 'B') {gryB++; przegraneB++;}
+            if (gracz1 == 'C') {gryC++; przegraneC++;}
+            if (gracz1 == 'D') {gryD++; przegraneD++;}
         }
         //N
 
@@ -173,10 +172,10 @@ int main() {
             if (gracz1 == 'C') {wynikC++; gryC++;}
             if (gracz1 == 'D') {wynikD++; gryD++;}
 
-            if (gracz2 == 'A') gryA++;
-            if (gracz2 == 'B') gryB++;
-            if (gracz2 == 'C') gryC++;
-            if (gracz2 == 'D') gryD++;
+            if (gracz2 == 'A'){gryA++; przegraneA++;}
+            if (gracz2 == 'B'){gryB++; przegraneB++;}
+            if (gracz2 == 'C'){gryC++; przegraneC++;}
+            if (gracz2 == 'D'){gryD++; przegraneD++;}
         }
         if (wybor1 == 'K' && wybor2 == 'P'){
             if (gracz2 == 'A') {wynikA++; gryA++;}
@@ -184,10 +183,10 @@ int main() {
             if (gracz2 == 'C') {wynikC++; gryC++;}
             if (gracz2 == 'D') {wynikD++; gryD++;}
 
-            if (gracz1 == 'A') gryA++;
-            if (gracz1 == 'B') gryB++;
-            if (gracz1 == 'C') gryC++;
-            if (gracz1 == 'D') gryD++;
+            if (gracz1 == 'A') {gryA++; przegraneA++;}
+            if (gracz1 == 'B') {gryB++; przegraneB++;}
+            if (gracz1 == 'C') {gryC++; przegraneC++;}
+            if (gracz1 == 'D') {gryD++; przegraneD++;}
         }
         if (wybor1 == 'P' && wybor2 == 'S'){
             if (gracz1 == 'A') {wynikA++; gryA++;}
@@ -195,10 +194,10 @@ int main() {
             if (gracz1 == 'C') {wynikC++; gryC++;}
             if (gracz1 == 'D') {wynikD++; gryD++;}
 
-            if (gracz2 == 'A') gryA++;
-            if (gracz2 == 'B') gryB++;
-            if (gracz2 == 'C') gryC++;
-            if (gracz2 == 'D') gryD++;
+            if (gracz2 == 'A'){gryA++; przegraneA++;}
+            if (gracz2 == 'B'){gryB++; przegraneB++;}
+            if (gracz2 == 'C'){gryC++; przegraneC++;}
+            if (gracz2 == 'D'){gryD++; przegraneD++;}
         }
         if (wybor1 == 'S' && wybor2 == 'P'){
             if (gracz2 == 'A') {wynikA++; gryA++;}
@@ -206,10 +205,10 @@ int main() {
             if (gracz2 == 'C') {wynikC++; gryC++;}
             if (gracz2 == 'D') {wynikD++; gryD++;}
 
-            if (gracz1 == 'A') gryA++;
-            if (gracz1 == 'B') gryB++;
-            if (gracz1 == 'C') gryC++;
-            if (gracz1 == 'D') gryD++;
+            if (gracz1 == 'A') {gryA++; przegraneA++;}
+            if (gracz1 == 'B') {gryB++; przegraneB++;}
+            if (gracz1 == 'C') {gryC++; przegraneC++;}
+            if (gracz1 == 'D') {gryD++; przegraneD++;}
         }
         //P
 
@@ -222,10 +221,10 @@ int main() {
             if (gracz1 == 'C') {wynikC++; gryC++;}
             if (gracz1 == 'D') {wynikD++; gryD++;}
 
-            if (gracz2 == 'A') gryA++;
-            if (gracz2 == 'B') gryB++;
-            if (gracz2 == 'C') gryC++;
-            if (gracz2 == 'D') gryD++;
+            if (gracz2 == 'A'){gryA++; przegraneA++;}
+            if (gracz2 == 'B'){gryB++; przegraneB++;}
+            if (gracz2 == 'C'){gryC++; przegraneC++;}
+            if (gracz2 == 'D'){gryD++; przegraneD++;}
         }
         if (wybor1 =='K' && wybor2 == 'S'){
             if (gracz2 == 'A') {wynikA++; gryA++;}
@@ -233,10 +232,10 @@ int main() {
             if (gracz2 == 'C') {wynikC++; gryC++;}
             if (gracz2 == 'D') {wynikD++; gryD++;}
 
-            if (gracz1 == 'A') gryA++;
-            if (gracz1 == 'B') gryB++;
-            if (gracz1 == 'C') gryC++;
-            if (gracz1 == 'D') gryD++;
+            if (gracz1 == 'A') {gryA++; przegraneA++;}
+            if (gracz1 == 'B') {gryB++; przegraneB++;}
+            if (gracz1 == 'C') {gryC++; przegraneC++;}
+            if (gracz1 == 'D') {gryD++; przegraneD++;}
         }
         if (wybor1 == 'S' && wybor2 == 'N'){
             if (gracz1 == 'A') {wynikA++; gryA++;}
@@ -244,10 +243,10 @@ int main() {
             if (gracz1 == 'C') {wynikC++; gryC++;}
             if (gracz1 == 'D') {wynikD++; gryD++;}
 
-            if (gracz2 == 'A') gryA++;
-            if (gracz2 == 'B') gryB++;
-            if (gracz2 == 'C') gryC++;
-            if (gracz2 == 'D') gryD++;
+            if (gracz2 == 'A'){gryA++; przegraneA++;}
+            if (gracz2 == 'B'){gryB++; przegraneB++;}
+            if (gracz2 == 'C'){gryC++; przegraneC++;}
+            if (gracz2 == 'D'){gryD++; przegraneD++;}
         }
         if (wybor1 == 'N' && wybor2 == 'S'){
             if (gracz2 == 'A') {wynikA++; gryA++;}
@@ -255,10 +254,10 @@ int main() {
             if (gracz2 == 'C') {wynikC++; gryC++;}
             if (gracz2 == 'D') {wynikD++; gryD++;}
 
-            if (gracz1 == 'A') gryA++;
-            if (gracz1 == 'B') gryB++;
-            if (gracz1 == 'C') gryC++;
-            if (gracz1 == 'D') gryD++;
+            if (gracz1 == 'A') {gryA++; przegraneA++;}
+            if (gracz1 == 'B') {gryB++; przegraneB++;}
+            if (gracz1 == 'C') {gryC++; przegraneC++;}
+            if (gracz1 == 'D') {gryD++; przegraneD++;}
         }
         //S
 
@@ -269,10 +268,10 @@ int main() {
             if (gracz1 == 'C') {wynikC++; gryC++;}
             if (gracz1 == 'D') {wynikD++; gryD++;}
 
-            if (gracz2 == 'A') gryA++;
-            if (gracz2 == 'B') gryB++;
-            if (gracz2 == 'C') gryC++;
-            if (gracz2 == 'D') gryD++;
+            if (gracz2 == 'A') {gryA++; przegraneA++;}
+            if (gracz2 == 'B') {gryB++; przegraneB++;}
+            if (gracz2 == 'C') {gryC++; przegraneC++;}
+            if (gracz2 == 'D') {gryD++; przegraneD++;}
 
         }
         if (wybor1 == wybor2 && sila2 > sila1){
@@ -281,26 +280,44 @@ int main() {
             if (gracz2 == 'C') {wynikC++; gryC++;}
             if (gracz2 == 'D') {wynikD++; gryD++;}
 
-            if (gracz1 == 'A') gryA++;
-            if (gracz1 == 'B') gryB++;
-            if (gracz1 == 'C') gryC++;
-            if (gracz1 == 'D') gryD++;
+            if (gracz1 == 'A') {gryA++; przegraneA++;}
+            if (gracz1 == 'B') {gryB++; przegraneB++;}
+            if (gracz1 == 'C') {gryC++; przegraneC++;}
+            if (gracz1 == 'D') {gryD++; przegraneD++;}
     }
         if (wybor1 == wybor2 && sila1 == sila2) {
-            if (gracz2 == 'A') gryA++;
-            if (gracz2 == 'B') gryB++;
-            if (gracz2 == 'C') gryC++;
-            if (gracz2 == 'D') gryD++;
+            if (gracz2 == 'A') {gryA++; remisA++; }
+            if (gracz2 == 'B') {gryB++; remisB++;}
+            if (gracz2 == 'C') {gryC++; remisC++;}
+            if (gracz2 == 'D') {gryD++; remisD++;}
 
-            if (gracz1 == 'A') gryA++;
-            if (gracz1 == 'B') gryB++;
-            if (gracz1 == 'C') gryC++;
-            if (gracz1 == 'D') gryD++;
+            if (gracz1 == 'A') {gryA++; remisA++;}
+            if (gracz1 == 'B') {gryB++; remisB++;}
+            if (gracz1 == 'C') {gryC++; remisC++;}
+            if (gracz1 == 'D') {gryD++; remisD++;}
         }
-        cout << gracz1 << " " << wybor1 << " " << sila1 << " " << gracz2 << " " << wybor2 << " " << sila2 << endl;
+        cout << gracz1 << " " << wybor1 << " " << sila1 << " " << gracz2 << " " << wybor2 << " " << sila2;
+    }
+    if (gryA!=0){
+    }
+    if (gryB!=0){
+
+    }
+    if (gryC!=0){
+
+    }
+    if (gryD!=0){
+
     }
 
 
+
+
+
+
+
+
+    }
 
 
 
