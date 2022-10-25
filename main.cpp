@@ -869,29 +869,29 @@ int main() {
 
 
     //graczA
-    if (gryA != 0 && wynikA != 0 && przegraneA != 0 && remisA != 0) { //w1 p1 r1
+    if (gryA != 0 && wynikA != 0 && przegraneA != 0 && remisA != 0) {
         cout << "gracz a" << endl << "    " << "wygrane: " << pwA << "%" << endl << "    " << "remisy: " << prA
              << "%"  << endl << "    "<<  "przegrane: " << ppA << "%" << endl << endl;
     }
-    if (gryA != 0 && wynikA != 0 && przegraneA != 0 && remisA == 0) { //w1 p1 r0
+    if (gryA != 0 && wynikA != 0 && przegraneA != 0 && remisA == 0) {
         cout << "gracz a" << endl << "    " << "wygrane: " << pwA << "%" << endl << "    " << "przegrane: " << ppA
              << "%"
              << endl << endl;
     }
-    if (gryA != 0 && wynikA != 0 && przegraneA == 0 && remisA != 0) { //w1 p0 r1
+    if (gryA != 0 && wynikA != 0 && przegraneA == 0 && remisA != 0) {
         cout << "gracz a" << endl << "    " << "wygrane: " << pwA << "%" << endl << "    "<< "remisy: " << prA << "%"
              << endl << endl;
     }
-    if (gryA != 0 && wynikA != 0 && przegraneA == 0 && remisA == 0) { //w1 p0 r0
+    if (gryA != 0 && wynikA != 0 && przegraneA == 0 && remisA == 0) {
         cout << "gracz a" << endl << "    " << "wygrane: " << pwA << "%"
              << endl << endl;
     }
-    if (gryA != 0 && wynikA == 0 && przegraneA != 0 && remisA != 0) { //w0 p1 r1
+    if (gryA != 0 && wynikA == 0 && przegraneA != 0 && remisA != 0) {
         cout << "gracz a" << endl << "    " << "remisy: " << prA
              << "%"
              << endl << "    "<< "przegrane: " << ppA << "%" << endl << endl;
     }
-    if (gryA != 0 && wynikA == 0 && przegraneA != 0 && remisA == 0) { //w0 p1 r0
+    if (gryA != 0 && wynikA == 0 && przegraneA != 0 && remisA == 0) {
         cout << "gracz a" << endl << "    " << "przegrane: " << ppA << "%" << endl << endl;
     }
 
@@ -953,27 +953,27 @@ int main() {
     //graczD
     if (gryD != 0 && wynikD != 0 && przegraneD != 0 && remisD != 0) {
         cout << "gracz d" << endl << "    " << "wygrane: " << pwD << "%" << endl << "    " << "remisy: " << prD
-             << "%" << endl << "    " << "przegrane: " << ppD << "%" << endl << endl << endl;
+             << "%" << endl << "    " << "przegrane: " << ppD << "%" << endl;
     }
     if (gryD != 0 && wynikD != 0 && przegraneD != 0 && remisD == 0) {
         cout << "gracz d" << endl << "    " << "wygrane: " << pwD << "%" << endl << "    " << "przegrane: " << ppD
-             << "%" << endl << endl << endl;
+             << "%" << endl;
     }
     if (gryD != 0 && wynikD != 0 && przegraneD == 0 && remisD != 0) {
         cout << "gracz d" << endl << "    " << "wygrane: " << pwD << "%" << endl << "    " << "remisy: " << prD << "%"
-             << endl << endl;
+             << endl;
     }
     if (gryD != 0 && wynikD != 0 && przegraneD == 0 && remisD == 0) {
-        cout << "gracz d" << endl << "    " << "wygrane: " << pwD << "%" << endl << endl;
+        cout << "gracz d" << endl << "    " << "wygrane: " << pwD << "%" << endl;
     }
     if (gryD != 0 && wynikD == 0 && przegraneD != 0 && remisD != 0) {
         cout << "gracz d" << endl << "    " << "remisy: " << prD
-             << "%" << endl << "    " << "przegrane: " << ppD << "%" << endl << endl;
+             << "%" << endl << "    " << "przegrane: " << ppD << "%" << endl;
     }
     if (gryD != 0 && wynikD == 0 && przegraneD != 0 && remisD == 0) {
-        cout << "gracz d" << endl << "    " << "przegrane: " << ppD << "%" << endl << endl;}
+        cout << "gracz d" << endl << "    " << "przegrane: " << ppD << "%" << endl;}
     if (gryD != 0 && wynikD == 0 && przegraneD == 0 && remisD != 0 ) {
-        cout << "gracz d" << endl << "    " << "remisy: " << prD << "%" << endl << endl;
+        cout << "gracz d" << endl << "    " << "remisy: " << prD << "%" << endl;
     }
     return 0;
 }
